@@ -1,0 +1,44 @@
+/* 초기화 */
+body,
+h1,
+h2,
+h3,
+p{
+    margin : 0 ;
+    padding : 0;
+}
+
+/* main */
+/* 로그인 페이지 */
+.login {
+    width : 400px;
+    background-color : skyblue;
+    margin : auto;
+    text-align : center;
+}
+
+.main-title{   
+    font-size: 24px;
+    text-align : center;
+}
+
+.main-desc{
+    text-align : center;
+    color : #767676;
+    margin : 10px 0 32px;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*컨테이너2*/
+.main-form div{
+    display: flex;
+}
+
+.main-form div label {
+    width : 80px; 
+}
