@@ -1,44 +1,46 @@
-/* 초기화 */
-body,
-h1,
-h2,
-h3,
-p{
-    margin : 0 ;
-    padding : 0;
-}
+/* font */
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); */
 
-/* main */
-/* 로그인 페이지 */
-.login {
-    width : 400px;
-    background-color : skyblue;
-    margin : auto;
-    text-align : center;
-}
-
-.main-title{   
-    font-size: 24px;
-    text-align : center;
-}
-
-.main-desc{
-    text-align : center;
-    color : #767676;
-    margin : 10px 0 32px;
-}
-
-.main-form{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-/*컨테이너2*/
-.main-form div{
-    display: flex;
-}
-
-.main-form div label {
-    width : 80px; 
-}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  /* 초기화 reset ------------------------ */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  button,
+  fieldset,
+  legend,
+  ul, ol, li{
+    margin: 0;
+    padding: 0;
+  }
+  button:enabled{
+    cursor: pointer;
+  }
+  
+  body{
+    /* font-family: 'Nanum Myeongjo', serif; */
+    font-family:  'Pretendard-Regular', sans-serif;
+  }
+  
+  
+  
+  /* main -----------------------------  */
+  .main-title{
+    font-size:24px;
+  }
