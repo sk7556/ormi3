@@ -1,0 +1,40 @@
+body{
+
+
+}
+
+.list { 
+    width : 1000px;
+    margin : auto; /* 가운데 정렬을 위해 */
+}
+
+.list table { 
+    border-top : 2px solid black;
+    border-bottom : 1px solid #fcf299;
+    width : 100%;
+    border-collapse: collapse;
+    text-align : left;
+}
+
+.list table thead {
+    background-color : #eee;
+}
+
+.list table td {
+    border : 1px solid #ddd;
+    border-bottom : 1px solid #ddd;
+}
+
+.list table th,
+.list table td {
+    padding :8px;
+}
+
+.list table a{
+    text-decoration : none;
+    font-weight : bold;
+    color : inherit;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
