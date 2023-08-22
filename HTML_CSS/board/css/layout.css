@@ -1,0 +1,33 @@
+body {
+    margin : auto;
+     width : 1000px;
+     height : 800px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin : 20px;
+    padding-bottom : 20px;
+    border-bottom : 1px solid #ddd;
+}
+
+.right-header{
+   display : flex;
+   gap : 20px;
+
+
+}
+
+main {
+    height : 80%;
+}
+
+footer {
+    display: flex;
+    height : 10%;
+    background-color: #ddd;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
